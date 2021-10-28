@@ -1,0 +1,177 @@
+body {
+  background-color: #F0FFFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 575px) {
+
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* h4{
+  font-weight: 400;
+  font-size: 1.2rem;
+} */
+p {
+  margin-bottom: .5rem;
+}
+
+/* Title Section */
+.title {
+  background-image: linear-gradient(to bottom right, #2C3E50, #95A5A6);
+  color: #F0FFFF;
+}
+
+.navbar {
+  padding-bottom: 3rem;
+}
+
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem
+}
+
+.title-container {
+  padding: 2% 5%;
+}
+
+.really {
+  margin: 5rem auto 0 auto;
+}
+
+/* .strapline{
+
+} */
+.title-image {
+  width: 50%;
+  margin: 50px auto 50px 0;
+  transform: rotate(-25deg);
+}
+
+hr{
+  width: 20%;
+  border-top: 2px dotted #2C3E50;
+  margin: 20px auto;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* From trial & error it seems that the media query must be placed after the original definition */
+
+/* Changes to title section before text wraps */
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Changes to title section when views on a small (phone) screen */
+@media only screen and (max-width: 575px) {
+  .title-image {
+    /* position: static; */
+    transform: rotate(0deg);
+  }
+  .title-heading {
+    text-align: center
+  }
+}
+
+.logo-image {
+  width: 20%
+}
+
+.header {
+  background-color: #2A3484;
+  color: white;
+  padding-top: 10px;
+  padding-bottom:  5px;
+  padding-left: 5px;
+}
+
+/* Products Section */
+.feature-box {
+  text-align: center;
+  padding: 3% 5%
+}
+
+.product-image {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.download-button {
+  margin-top: 5%
+}
+
+/* Contact Section */
+.contact {
+  padding: 2% 5% 5% 5%;
+}
+
+/* Product Pages */
+.product-outline {
+  padding: 2% 10% 5% 10%;
+  background-image: linear-gradient(to bottom right, #2C3E50, #95A5A6);
+  color: #F0FFFF;
+}
+
+.product-description {
+  padding: 2% 10% 5% 10%;
+}
+
+.product-heading {
+  margin-top: 40px;
+  color: #2C3E50
+}
+
+/* .instructions {
+  padding: 2% 10% 5% 10%;
+} */
+
+.product-image {
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Changes to introduction when views on a small (phone) screen */
+@media only screen and (max-width: 575px) {
+  .introduction {
+    text-align: center
+  }
+}
+
+
+
+/* Privacy & Teems Pages */
+.textpage-intro {
+  padding: 2% 10% 5% 10%;
+  background-image: linear-gradient(to bottom right, #2C3E50, #95A5A6);
+  color: #F0FFFF;
+}
+
+.textpage-body {
+  padding: 2% 10% 5% 10%;
+}
